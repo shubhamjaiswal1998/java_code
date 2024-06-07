@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -70,6 +71,7 @@ public class streams2 {
         System.out.println(flattenedList);  //[a, b, c, d, e, f, g, h, i]    
         
         //////////////////////////////////////////////////////////////
+        List<Integer> t1=new ArrayList<>();
 
     }
 }

@@ -1,7 +1,6 @@
 import java.util.function.Function;
 class method_ref_lamda{
-
-    //static fn
+  //static fn
    public static String reverse(String str){
        String str1="";
        for (int i= str.length()-1;i>=0; i--) {
@@ -9,7 +8,6 @@ class method_ref_lamda{
        }
        return str1;
    }
-
    //instance fn
    //////////////////////////////
    public int fibo(int n){//take only one parameter
@@ -19,7 +17,6 @@ class method_ref_lamda{
        }
       return f;
    }
-
    //constructer 
    public method_ref_lamda(int num){
       System.out.println("it is constructer "+num);
